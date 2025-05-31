@@ -1,4 +1,4 @@
-Kishore K V is an aspiring technology professional who recently completed his Class 12 education at Shri Vidhya Mandhir, Palani, under the CBSE curriculum, where he also completed his Class 10. 
+Kishore K V is an aspiring technology professional who recently completed his Class 12 education at Shri Vidhya Mandhir, Palani, under the CBSE curriculum. 
 He is currently pursuing a Bachelor of Technology (B.Tech) in Information Technology at the Chennai Institute of Technology, Chennai.
 Kishore is deeply passionate about cybersecurity and computer networking, with a strong desire to explore the digital world's underlying systems and defenses. 
 Even before starting college, he took the initiative to begin self-learning in areas like Linux, ethical hacking, and network fundamentals.
