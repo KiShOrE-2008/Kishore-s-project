@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam-Registration-Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #eedfbd;  margin: 0; padding: 30px;}
+        h1 { color: #000000; text-align: center; margin-bottom: 20px; font-size: 2em; }
+        form { background: #8d9eff6c; padding: 30px; border-radius: 5px; }
+        label {display: block; margin-bottom: 5px; font-weight: bold; color: #080000e5;}
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select {width: 50%;padding: 10px;margin-bottom: 10px;border: 1px solid #ccc;border-radius: 4px;}
+        input[type="submit"] { background: #5cb85c; color: #fff; padding: 10px 15px; border-radius: 4px; cursor: pointer; }
+        input[type="submit"]:hover { background: #4cae4c;}
+        input[type="radio"], input[type="checkbox"] { margin-right: 5px;}
+    </style>
+</head>
+<body>
+
+    <h1><b>Online Course Exam Registration</b></h1>
+
+    <form action="#" method="post">
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="number" name="phone" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+
+        <label>Select Course:</label><br>
+        <select name="course" required>
+            <option value="">--Select--</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="Networking">Networking</option>
+            <option value="Web Development">Web Development</option>
+            <option value="AI">AI</option>
+        </select><br><br>
+
+        <label>Exam Mode:</label><br>
+        <input type="checkbox" name="mode" value="Online"> Online<br>
+        <input type="checkbox" name="mode" value="Offline"> Offline<br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
